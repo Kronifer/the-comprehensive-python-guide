@@ -8,6 +8,26 @@ and take you far beyond them. Here is what you will need:
 
 If these aren't installed, read section 0. Otherwise, feel free to skip straight to section 1!
 
+# Table Of Contents
+
+- [The Comprehensive Python Guide](#the-comprehensive-python-guide)
+- [0:  Installing Python and Pip](#0---installing-python-and-pip)
+  * [0.1:  Installing Python and Pip on Windows](#01---installing-python-and-pip-on-windows)
+    + [0.1.1 Installing from Python.org](#011-installing-from-pythonorg)
+    + [0.1.2 Installing from Scoop](#012-installing-from-scoop)
+  * [0.2 Installing Python and Pip on MacOs](#02-installing-python-and-pip-on-macos)
+    + [0.2.1 Installing from Python.org](#021-installing-from-pythonorg)
+    + [0.2.2 Installing with Brew](#022-installing-with-brew)
+  * [0.3 Installing on Linux](#03-installing-on-linux)
+- [1 Hello World](#1-hello-world)
+  * [1.1 Opening Python in your terminal](#11-opening-python-in-your-terminal)
+  * [1.2 Programming the Hello World Program](#12-programming-the-hello-world-program)
+  * [1.3 How this works](#13-how-this-works)
+- [2 Variables](#2-variables)
+  * [2.1 Programing "Hello, Python!" with variables](#21-programing--hello--python---with-variables)
+  * [2.2 How variables work](#22-how-variables-work)
+- [3 Loops](#3-loops)
+
 # 0:  Installing Python and Pip
 
 ## 0.1:  Installing Python and Pip on Windows
