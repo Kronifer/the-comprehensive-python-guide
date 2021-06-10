@@ -47,5 +47,15 @@ In this section, I will explain how to write a simple "Hello, World!" program in
 
 ## 1.1 Opening Python in your terminal
 
-First, we need to open a terminal. On windows, press Win+R, and type "cmd". On MacOs, open the launchpad and click "Terminal". On Linux, open your favorite terminal emulator.
+First, we need to open a terminal. On windows, press Win+R, and type "cmd". On MacOs, open the launchpad and click "Terminal". On Linux, open your favorite terminal emulator. Then in your terminal,
+type `python3`. 
+
+## 1.2 Programming the Hello World Program
+
+After typing `python3`, you should see something like this: ```
+Python 3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
 
