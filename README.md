@@ -119,3 +119,51 @@ kind of take a copy of the master document for use. This improves our programs e
 typing `print(text)` multiple times is very inneficient. Next, we are going to look at `loops`.
 
 # 3 Loops
+
+## 3.1 Coding "Hello, Python!" with loops
+
+Loops allow us to write one instruction and execute it multiple times. Let's try this now. We are 
+going to to print `Hello, Python!` 10 times. In the same terminal, type `for i in range(10):`. You will see something like this: 
+```
+>>> for i in range(10):
+... 
+```
+The `...` prompt means you need to indent your code. Now, we add our `print(text)`, but with 4
+spaces before it. Hit enter twice, and you should see `Hello, Python!` printed 10 times. You have
+now successfully used a loop!
+
+## 3.2 How loops work
+
+There are multiple kinds of loops in Python. We used the `for` loop, which iterates over elements
+in an object. There is the `while` loop, which continuously iterates until a condition is truth,
+an example would be `while x == True`. This can be used to create a continuous loop by using 
+`while True`. We have completely optimized our program, but if we want to run this again after
+we close our terminal, we would have to completely recode it. This is where **scripts** come into 
+play. 
+
+# 4 Scripting
+
+Scripting is the most important thing to a python programmer. It allows you to write and share 
+programs with other people without having to recreate them in the Python REPL, which we were using
+to program.
+
+## 4.1 Writing our "Hello, Python!" Script
+
+In your favourite text editor, i.e Notepad on windows, vim on MacOs and Linux, make a new file called
+`hello.py`. In this file, we will insert the following:
+```py
+text = "Hello, Python!"
+for i in range(10):
+    print(text)
+```
+This is our "Hello Python!" script, saved in a file. Close your old terminal, and start a new one.
+`cd` to wherever the `hello.py` file is, and then type the following: `python hello.py`. 
+`Hello, Python!` should print to the screen. Congratulations, you wrote your first script!
+
+## 4.2 How Scripts work
+
+Our `hello.py` script, and any other script we will create, is like a list of instructions for Python
+to run. It will run the instructions in order of top to bottom. Once it is done, it leaves you back at
+your terminal. This is how scripts work. You will notice that we used another type of literal. We used
+a number, or `integer` as we call it in Python. Integers do not require any quotes, and can be 
+positive or negative. In the next section, we will cover **input**.
