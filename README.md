@@ -87,7 +87,7 @@ to use a variable.
 
 To assign a variable, we follow the following template:  `{variable-name} = {value}`. We are now
 going to make a variable for the string "Hello, Python!". We are going to name this variable `text`.
-In your terminal with Python running, type `text = "Hello, Python!". You will notice that nothing will
+In your terminal with Python running, type `text = "Hello, Python!"`. You will notice that nothing will
 print to the screen. Now, we are going to use this variable. Type `print(text)`. You will see 
 `Hello, Python!` printed to the screen.
 
