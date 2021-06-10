@@ -27,6 +27,11 @@ If these aren't installed, read section 0. Otherwise, feel free to skip straight
   * [2.1 Programing "Hello, Python!" with variables](#21-programing--hello--python---with-variables)
   * [2.2 How variables work](#22-how-variables-work)
 - [3 Loops](#3-loops)
+  * [3.1 Programming "Hello, Python!" with loops](#31-programming--hello--python---with-loops)
+  * [3.2 How loops work](#32-how-loops-work)
+- [4 Scripting](#4-scripting)
+  * [4.1 Writing Our "Hello, Python!" script](#41-writing-our--Hello--python---script)
+  * [4.2 How Scripts Work](#42-how-scripts-work)
 
 # 0:  Installing Python and Pip
 
@@ -120,7 +125,7 @@ typing `print(text)` multiple times is very inneficient. Next, we are going to l
 
 # 3 Loops
 
-## 3.1 Coding "Hello, Python!" with loops
+## 3.1 Programming "Hello, Python!" with loops
 
 Loops allow us to write one instruction and execute it multiple times. Let's try this now. We are 
 going to to print `Hello, Python!` 10 times. In the same terminal, type `for i in range(10):`. You will see something like this: 
